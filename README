@@ -1,0 +1,16 @@
+Partiture for Mississippi Mambo
+
+== Requisites ==
+LillyPond for script compiling
+http://lilypond.org/web/install/
+
+= Usage Instructions =
+
+== Clone the repo ==
+git clone git://github.com/ingenieroariel/mississippi-mambo.git
+
+== Compile to pdf and midi ==
+lilypond mississippi-mambo.ly
+
+== Have fun ==
+Play the midi file or take a look at the pdf output
