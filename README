@@ -20,3 +20,24 @@ Play the midi file or take a look at the pdf output
   timidity mississippi-mambo.midi -Ov -o mississippi-mambo.ogg
 }}}
 
+== Optional ==
+Make sure to setup your favorite editor as described in:
+
+http://lilypond.org/doc/v2.11/Documentation/user/lilypond-program/Text-editor-support#Text-editor-support
+
+If you like vim as I do, here is a shortcut:
+
+something like the following in your ~/.vimrc
+{{{
+  set runtimepath+=/usr/local/share/lilypond/${LILYPOND_VERSION}/vim/
+}}}
+
+And add the following to ~/.vim/filetype.vim
+{{{
+if exists("did_load_filetypes")
+  finish
+endif
+augroup filetypedetect
+  au! BufNewFile,BufRead *.ly           setf lilypond
+augroup END
+}}}
