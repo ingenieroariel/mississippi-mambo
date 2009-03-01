@@ -30,6 +30,8 @@
  \tempo 4 = 120
  \relative {
    {r1} {c8 ees f f f ees g r }
+   {c,8 ees f f f ees g r }
+ 
  }
 }
 
@@ -38,7 +40,8 @@
  \key a \minor
  \time 4/4
 \relative c, {
-   {r4 c ees f} {r1}
+   {r4 c ees f} {r2 r4 r8 c}
+   {r2 r4 r8 c}
  }
  }
 >>
