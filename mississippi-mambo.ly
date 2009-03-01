@@ -1,5 +1,5 @@
 
-\version "0.1"
+\version "2.10.33"
 
 \header {
   title = "Mississippi Mambo"
@@ -26,16 +26,18 @@
  \time 4/4
  \override Score.MetronomeMark #'transparent = ##t
  \tempo 4 = 72
- {
-   c }
+\relative {
+   {r1} {c8 ees f f f ees g r }
+ }
 }
 
  \new Staff = "down" {
  \clef bass
  \key a \minor
  \time 4/4
- {
- c }
+\relative c, {
+   {r4 c ees f} {r1}
+ }
  }
 >>
 
