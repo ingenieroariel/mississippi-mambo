@@ -1,7 +1,7 @@
 Partiture for Mississippi Mambo
 
 == Requisites ==
- * [http://lilypond.org/web/install/ LillyPond] for script compiling
+ * [http://lilypond.org/web/install/ LilyPond] for script compiling
  * [http://timidity.sourceforge.net/#download Timidity] for midi to wav conversion
 
 = Usage Instructions =
