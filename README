@@ -1,8 +1,8 @@
 Partiture for Mississippi Mambo
 
 == Requisites ==
-LillyPond for script compiling
-http://lilypond.org/web/install/
+ * [http://lilypond.org/web/install/ LillyPond] for script compiling
+ * [http://timidity.sourceforge.net/#download Timidity] for midi to wav conversion
 
 = Usage Instructions =
 
@@ -10,7 +10,13 @@ http://lilypond.org/web/install/
 git clone git://github.com/ingenieroariel/mississippi-mambo.git
 
 == Compile to pdf and midi ==
-lilypond mississippi-mambo.ly
+{{{
+   lilypond mississippi-mambo.ly
+}}}
 
 == Have fun ==
 Play the midi file or take a look at the pdf output
+{{{
+  timidity mississippi-mambo.midi -Ov -o mississippi-mambo.ogg
+}}}
+
