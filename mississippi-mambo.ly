@@ -16,6 +16,8 @@
   tagline = \markup {  }
 }
 
+ mBreak = { \break }
+
 \score {
 
  \new PianoStaff
@@ -26,7 +28,7 @@
  \time 4/4
  \override Score.MetronomeMark #'transparent = ##t
  \tempo 4 = 120
-\relative {
+ \relative {
    {r1} {c8 ees f f f ees g r }
  }
 }
