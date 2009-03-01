@@ -25,7 +25,7 @@
  \key a \minor
  \time 4/4
  \override Score.MetronomeMark #'transparent = ##t
- \tempo 4 = 72
+ \tempo 4 = 120
 \relative {
    {r1} {c8 ees f f f ees g r }
  }
